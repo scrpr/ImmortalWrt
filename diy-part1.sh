@@ -25,7 +25,7 @@
 #sed -i '$a src-git custom https://github.com/kiddin9/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git bypass https://github.com/kiddin9/openwrt-bypass' feeds.conf.default
 #sed -i '$a src-git smartdns-le https://github.com/garypang13/smartdns-le' feeds.conf.default
-sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+#sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
 #sed -i '$a src-git litte https://github.com/kenzok8/litte' feeds.conf.default
 #sed -i '$a src-git maxminddb https://github.com/jerrykuku/lua-maxminddb.git' feeds.conf.default
@@ -33,4 +33,4 @@ sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf
 # Add Theme
 #sed -i '$a src-git infi https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom' feeds.conf.default
 #sed -i '$a src-git infi https://github.com/kenzok8/luci-theme-ifit' feeds.conf.default
-git clone https://github.com/kenzok8/luci-theme-ifit.git package/lean/luci-theme-ifit
+#git clone https://github.com/kenzok8/luci-theme-ifit.git package/lean/luci-theme-ifit
